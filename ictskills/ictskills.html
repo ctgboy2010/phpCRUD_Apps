@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+</head>
+<body>
+<form action="ict_add.php" method="POST">
+
+    <h2>ICT Skills Information</h2>
+
+    <label> Experience Category: </label>
+    <select name="exp_category">
+        <option value="Computer Engineering" selected>Computer Engineering</option>
+        <option value="Accounting">Accounting</option>
+        <option value="IT/Telecommunication">IT/Telecommunication</option>
+        <option value="Design">Design</option>
+    </select>
+    <br>
+    <label>Skill: </label>
+    <select name="skill">
+        <option selected>Choose Skilled Field</option>
+        <option value="Programming">Programming</option>
+        <option value="Database">Database</option>
+        <option value="JQuery">JQuery</option>
+    </select>
+    <br>
+
+    <label>Skill Description: </label>
+    <input type="text" name="skill_description" />
+    <br>
+
+    <label> Extracurricular Activities: </label>
+    <!--<textarea name="extr_activity" cols="40" rows="3" ></textarea>-->
+    <input type="text" name="ext_activities" />
+    <br>
+
+    <!--<button type="submit">Submit</button>-->
+    <input type="submit" value="Submit" name="submit" />
+</form>
+<a href="ict_list.php"><b>Go To List</b></a>
+</body>
+</html>
